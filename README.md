@@ -28,7 +28,7 @@ kanji.readings()
 ----
 **Get the On and Kun reading compounds** (returns a dict with two keys: 'On' and 'Kun' where the values are a list containing the relevant words. Each word is split into a dict with three keys: 'word', 'furigana' and 'definition' which is self explanatory(see example below or website). returns *None* if not available.)
 ```python
-print(kanji.reading_compounds())
+kanji.reading_compounds()
 ```
 ```python
 {'On': [{'word': '中', 'furigana': 'チュウ', 'definition': 'medium, average, middle, moderation, middle school, China, volume two (of three), during (a certain time when one did or is doing something), under (construction, etc.), while, in, out of, of the'}, 
@@ -81,6 +81,8 @@ kanji.stroke_diagram()
 Thank you for viewing my project! I am grateful for any suggestions, improvements, or general feedback on this project!
 
 ### To do ##
+- Support words
+- Scrape newspaper frequency, Jouyou grading, etc.
 
 
 
